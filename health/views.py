@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def health(request):
-    return HttpResponse("Morning THeo")
+    return render(request,'health.html')
